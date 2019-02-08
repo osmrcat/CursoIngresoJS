@@ -1,0 +1,6 @@
+git status
+git clone repo	
+git add . 
+git commit -m "texto"
+git push
+
