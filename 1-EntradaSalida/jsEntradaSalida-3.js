@@ -5,7 +5,7 @@ function mostrar()
 	var nombre; 
 	//nombre = elNombre.value;
 	nombre = document.getElementById('elNombre').value;
-	alert(nombre);
+	alert("¡Hola "+nombre+"! Bienvenid@.");
 	
 
 }

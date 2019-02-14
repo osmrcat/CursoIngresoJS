@@ -5,13 +5,73 @@ C.	ingresar tres precios de productos  y mostrar precio final (más IVA 21%).
 */
 function Sumar () 
 {
-	
+	var precio1;
+	var precio2;
+	var precio3;
+	var suma;
+
+	precio1 = PrecioUno.value;
+	precio2 = PrecioDos.value;
+	precio3 = PrecioTres.value;
+
+	precio1=parseInt(precio1);
+	precio2=parseInt(precio2);
+	precio3=parseInt(precio3);
+
+
+	suma= precio1+precio2+precio3;
+
+	alert("la suma es: "+suma);
+
 }
 function Promedio () 
 {
 	
+	var precio1;
+	var precio2;
+	var precio3;
+	var suma;
+	var promedio;
+
+	precio1 = PrecioUno.value;
+	precio2 = PrecioDos.value;
+	precio3 = PrecioTres.value;
+
+	precio1 = parseInt(precio1);
+	precio2 = parseInt(precio2);
+	precio3 = parseInt(precio3);
+
+	suma = precio1+precio2+precio3
+
+	promedio = suma/3
+
+	alert ("el promedio es: "+promedio);
+
+
+
+
+
 }
 function PrecioFinal () 
 {
-	
+	var precio1;
+	var precio2;
+	var precio3;
+	var suma;
+	var precioFinal;
+
+	precio1 = PrecioUno.value;
+	precio2 = PrecioDos.value;
+	precio3 = PrecioTres.value;
+
+	precio1=parseInt(precio1);
+	precio2=parseInt(precio2);
+	precio3=parseInt(precio3);
+
+	suma= precio1+precio2+precio3;
+
+	precioFinal = suma * 0.21
+	alert("el precio final más el IVA es "+precioFinal);
+
+
 }
